@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bridéline MAKELA">
+    <title>Formulaire de préinscription </title>
+    <link rel="stylesheet" href="../pages/css/style2.css">
+    <link rel="stylesheet" href="../assets/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body>
+    <div class="container-fluid header mx-0 px-0">
+        <div class="container-fluid block mx-0 px-0 py-5">
+            <h2>FORMULAIRE D'INSCRIPTION</h2>
+        <a href="/" class="ind">Revenir à la page d'accueille</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+<div class="col-md-6 offset-md-3 my-4 ">
+    <div class="container">
+        <div class="row">
+            <form method="post" id="TOP" action="">
+                <fieldset form="#TOP">
+                    <label >Nom: </label><br>
+                    <input type="text" name="Nom" placeholder="votre nom" class="form-control"><br>
+                    <label>Prénom: </label><br>
+                    <input type="text" name="Prénom" placeholder="votre prénom" class="form-control"><br>
+                    <label>Date de naissance: </label><br>
+                    <input type="date" name="Date de naissance" placeholder="" class="form-control"><br>
+                    <label>Téléphone: </label><br>
+                    <input type="number" name="Téléphone" class="form-control"><br>
+                    <p>Genre:
+                        <select name="choix du genre" form="#TOP" class="form-select">
+                            <option>homme</option>
+                            <option>femme</option>
+                            <option>personnalisé</option>
+                        </select>
+                    </p>
+                    <p>Nos formations: <br>
+                        <input type="checkbox" name="choix1" id="bureautique">
+                        <label for="bureautique" class="" >BUREAUTIQUE</label>
+
+                        <input type="checkbox" name="choix2" id="infographie">
+                        <label for="infographie">INFOGRAPHIE</label>
+                        <br>
+                        <input type="checkbox" name="choix3" id="web">
+                        <label for="web">DEVELOPPEMENT WEB</label>
+
+                        <input type="checkbox" name="choix4" id="mobile"> 
+                        <label for="mobile">DEVELOPPEMENT MOBILE</label>
+    
+                    </p>
+                    <div class="row">
+                        <div class="bilan col-md-5">
+                            <input type="submit" name="valide_form" value="Envoyer" class="btn my-3 px-3 py-2 bg-">
+                            <input type="reset" name="annule_form" value="annuler" class="btn my-3 px-3 py-2 bg-danger">
+                        </div>  
+                        
+                    </div>
+                </fieldset>
+        
+            </form> 
+        </div>
+    </div>   
+        </div>
+            
+        </div>  
+</div>
+<div class="container-fluid py-3 mt-5" style="background-color: #000033;">
+    <div class="row">
+
+        <div class="col-md-12 text-center" id="contact">
+            <a href="https://api.whatsapp.com/send?phone=242068415751" class="bg-success text-light" style="display: inline-flex; justify-content: center; align-items: center; text-decoration: none; border-radius: 50%; width: 30px; height: 30px;">
+              <i class="fab fa-whatsapp">
+              </i>
+            </a>
+
+            <a href="" class="bg-primary text-light" style="display: inline-flex; justify-content: center; align-items: center; text-decoration: none; border-radius: 50%; width: 30px; height: 30px;">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <!--<p>Ce travail présenté est l'oeuvre d'un groupe de 5 apprenants de GOOD TECH session de Mars 2022.
+                Nous vous remerçions pour votre visite sur notre site internet.</p>-->
+
+                <small class="text-light d-block mt-3" style="font-size: 11px;">copyright&copy;GOOD-TECH | T2-2022</small>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

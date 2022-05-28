@@ -1,0 +1,94 @@
+
+body{
+  font-family: century Gothic;
+}
+.header{
+    background-image: url("../img/D-P-149.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.block{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.logo{ 
+    width: 100%;
+}
+.top{
+  display: flex;
+ flex-direction: column;
+justify-content: center;
+}
+.top a{
+  display: flex;
+
+}
+h1{
+  font-weight: 700;
+  color: #000033;
+}
+span{
+  color: red;
+}
+h3{
+ 
+  border-radius: 10px;
+}
+h3 span{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 3px 10px;
+  font-size: 15px;
+
+  
+}
+.block-1{
+  background-color: #000033; 
+  color: white; 
+  border-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.block-2{
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+.block-3{
+  margin: 10px;
+  padding-left: 20px;
+}
+.block-3 p{
+  padding-left: 30px;
+}
+.block-4{
+  margin: 10px;
+  padding-left: 20px;
+}
+.block-4 p{
+  padding-left: 30px;
+}
+img{
+  object-fit: cover;
+}
+a:hover{
+  color: white;
+}
+.bro{
+  background-color: #000033;
+}
+
+@media(max-width: 992px){
+  #row-header{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

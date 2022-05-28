@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**/
+body{
+    /*font-family: century Gothic;*/
+}
+.header{
+    background-image: url(./IMG/D-P-167.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    }
+.ind{
+            background-color:#000033;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 3px 10px;
+            font-size: 15px;
+            text-decoration: none;
+
+    }
+.bae input{
+    background-color: red;
+    color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 3px 10px;
+            font-size: 15px;
+            border: none;
+}
+.bilan input{
+    background-color: #000033;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px 10px;
+    font-size: 15px;
+    border: none;
+}
+.block{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.bloc{
+    background-color: #000033;
+    
+}
+.block-1{
+    color: white;
+}
+
+   
